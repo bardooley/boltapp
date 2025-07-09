@@ -47,18 +47,7 @@ const Footer = () => {
               <li><a href="#" className="hover:text-white transition-colors">Training & Support</a></li>
             </ul>
           </div>
-
-          {/* Company */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Company</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Case Studies</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Press</a></li>
-            </ul>
-          </div>
+          
 
           {/* Support */}
           <div>
