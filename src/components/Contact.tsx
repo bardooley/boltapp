@@ -38,12 +38,7 @@ const Contact = () => {
         </div>
 
       <div className="flex justify-center">
-        <div className="max-w-xl w-full space-y-8">
-          {/* Contact Information section (unchanged) */}
-        </div>
-      </div>
-
-
+        
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
