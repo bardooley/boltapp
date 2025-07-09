@@ -36,17 +36,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Services */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">Machine Learning</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Process Automation</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Data Analytics</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">AI Integration</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Training & Support</a></li>
-            </ul>
-          </div>
+          
           
 
           
