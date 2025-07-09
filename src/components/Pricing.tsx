@@ -47,10 +47,16 @@ const Pricing = () => {
               ))}
             </ul>
 
-            <button className="w-full py-3 px-6 rounded-lg font-semibold transition-all duration-200 flex items-center justify-center space-x-2 bg-[#EF233C] text-white hover:bg-[#d02035] transform hover:scale-105">
-              <span>{plan.cta}</span>
-              <ArrowRight className="h-4 w-4" />
-            </button>
+            <a
+  href="https://calendly.com/bradhh2005/30min"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full py-3 px-6 rounded-lg font-semibold transition-all duration-200 flex items-center justify-center space-x-2 bg-[#EF233C] text-white hover:bg-[#d02035] transform hover:scale-105"
+>
+  <span>{plan.cta}</span>
+  <ArrowRight className="h-4 w-4" />
+</a>
+
           </div>
         </div>
 

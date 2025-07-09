@@ -18,10 +18,17 @@ const Hero = () => {
 
             {/* CTA Button */}
             <div className="flex justify-center">
-              <button className="text-white px-8 py-4 rounded-lg transition-all duration-200 transform hover:scale-105 font-semibold flex items-center justify-center space-x-2 hover:opacity-90" style={{backgroundColor: '#EF233C'}}>
-                <span>Start Your AI Journey</span>
-                <ArrowRight className="h-5 w-5" />
-              </button>
+              <a
+  href="https://calendly.com/bradhh2005/30min"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-white px-8 py-4 rounded-lg transition-all duration-200 transform hover:scale-105 font-semibold flex items-center justify-center space-x-2 hover:opacity-90"
+  style={{backgroundColor: '#EF233C'}}
+>
+  <span>Start Your AI Journey</span>
+  <ArrowRight className="h-5 w-5" />
+</a>
+
             </div>
 
             {/* Stats */}

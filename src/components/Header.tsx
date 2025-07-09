@@ -29,9 +29,16 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <button className="text-white px-6 py-2 rounded-lg transition-all duration-200 transform hover:scale-105 hover:opacity-90" style={{backgroundColor: '#EF233C'}}>
-              Get Started
-            </button>
+            <a
+  href="https://calendly.com/bradhh2005/30min"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-white px-6 py-2 rounded-lg transition-all duration-200 transform hover:scale-105 hover:opacity-90"
+  style={{backgroundColor: '#EF233C'}}
+>
+  Get Started
+</a>
+
           </div>
 
           {/* Mobile menu button */}
@@ -50,9 +57,16 @@ const Header = () => {
               <a href="#about" className="text-gray-600 hover:text-blue-600 transition-colors px-4 py-2">About</a>
               <a href="#pricing" className="text-gray-600 hover:text-blue-600 transition-colors px-4 py-2">Pricing</a>
               <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors px-4 py-2">Contact</a>
-              <button className="text-white px-6 py-2 rounded-lg mx-4 transition-all hover:opacity-90" style={{backgroundColor: '#EF233C'}}>
-                Get Started
-              </button>
+              <a
+  href="https://calendly.com/bradhh2005/30min"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-white px-6 py-2 rounded-lg mx-4 transition-all hover:opacity-90"
+  style={{backgroundColor: '#EF233C'}}
+>
+  Get Started
+</a>
+
             </div>
           </div>
         )}
