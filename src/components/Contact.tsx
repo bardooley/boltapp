@@ -39,22 +39,7 @@ const Contact = () => {
 
       <div className="flex justify-center">
         
-          {/* Contact Information */}
           <div className="space-y-8">
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="bg-red-100 p-3 rounded-lg border border-red-200">
-                    <Mail className="h-6 w-6 text-red-600" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Email</h4>
-                    <p className="text-gray-600">harrinfa@bc.edu</p>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             {/* CTA Box */}
             <div className="rounded-2xl p-8 text-white" style={{backgroundColor: '#EF233C'}}>
